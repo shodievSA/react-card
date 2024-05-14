@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.main {
+    width: 600px;
+    height: 400px;
+    background-image: url("./react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: 100% 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #21222A;
+    color: #DEEBF8;
+}
+
+.logo {
+    width: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #282d35eb;
+    height: 80%;
+    color: white;
+}
+
+.listItems {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 18px;
+}
